@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero img {
+    width: 100%;
+    height: 70vh;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+    body {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    .full-content {
+        display: flex;
+        gap: 1em;
+    }
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2em;
+}
+.first-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.news-middle img {
+    width: 100%;
+    height: 100%;
+}
+.top-story-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.first-content {
+    display: flex;
+    gap: 3em;
+    margin: 1em;
+}
+
+.article-category {
+    color: red;
+}
+
+.line {
+    width: 3px;
+    height: 100%;
+    background-color: gray;
+}
+.section1-second {
+    display: flex;
+}
+.comments {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.content-section2-second {
+    display: flex;
+    gap: 2em;
+}
+.news-middle {
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.all-content {
+    display: flex;
+}
+.section-title {
+    color: gray;
+    margin-top: 1em;
+}
+
+ i {
+    color: gray;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.posted-by {
+    color: gray;
+}
+
+.news-middle img {
+    height: auto;
+}
+.featured-article {
+    display: flex;
+    background-image: url("https://picsum.photos/300");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: baseline;
+    color: white;
+    padding: 1em;
+}
+.article-title {
+    color: red;
+    font-weight: bold;
+    font-size: .8em;
+}
+.news-signup {
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 1em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.news-signup button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 2px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.active {
+    color: red;
+}
+.hr {
+    height: 5px;
+    width: 100%;
+    background-color: red;
+    margin: 1em;
+}
+.news-divided {
+    display: flex;
+    margin: 1em;
+    gap: 1em;
+}
+.news-divided-card {
+    width: auto;
+}
+.news-divided-card img {
+    width: 100%;
+}
+.article-card h2 {
+    font-size: .7em;
+    color: gray;
+}
+.first-head {
+    margin: .5em;
+    font-size: 1em;
+    color: gray;
+}
+
+.article-card h1 {
+    font-size: 1em;
+}
+
+.bubble {
+      position: relative;
+      border: 2px solid antiquewhite;
+      border-radius: 12px;
+      padding: 12px 16px;
+      max-width: 300px;
+      background: antiquewhite;
+    }
+
+.bubble::after {
+      content: "";
+      position: absolute;
+      bottom: -10px; 
+      left: 30px; 
+      border-width: 10px 10px 0;
+      border-style: solid;
+      border-color: antiquewhite transparent transparent transparent; 
+    }
+
+.bubble::before {
+      content: "";
+      position: absolute;
+      bottom: -8px;
+      left: 32px;
+      border-width: 8px 8px 0;
+      border-style: solid;
+      border-color: #fff transparent transparent transparent; 
+    }
+.news-middle-second {
+    margin-top: 2em;
+}
+.content {
+    margin-top: auto;
+}
+.news-middle .content, .news-middle-second .intro {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}
+.bulletin {
+    color: red;
+    font-weight: bold;
+}
+.news-signup input {
+    height: 2em;
+    background-color: #fff;
+    border: 2px solid gray;
+    padding: .5em;
+    width: 80%;
+   
+}
+
+.news-signup p {
+    color: gray;
+    font-size: .97em;
+    text-align: center;
+}
+.news-actions {
+    width: 100%;
+    display: flex;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    gap: 1em;
+    justify-content: center;
+}
+.last {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+.short-news {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.short {
+    display: flex;
+    gap: 1em;
+    color: red;
+}
+
+.short-news img {
+    border-radius: 5px;
+    height: 5em;
+    width: 5em;
+}
+
+.short h2 {
+    color: black;
+    font-size: 1em;
+}
+
+.dot {
+    background-color: red;
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+}
+
+.short-p {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.last img {
+    height: 5em;
+    width:5em;
+}
