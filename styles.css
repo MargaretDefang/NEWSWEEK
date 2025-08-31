@@ -1,0 +1,494 @@
+
+.entertainment-politics-margazine-and-money { 
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.entertainment-container1-all {
+    border-right: 1px solid rgb(197, 194, 194);
+  margin-left: 25px;
+  
+}
+
+.entertainment-container1 {
+    max-width: 900px;
+    /* border-right: 1px solid rgb(212, 209, 209); */
+    border-top: 4px solid red;
+    border-bottom: 4px solid red;
+    margin-right: 30px;
+}
+
+.entertainment-container2 {
+    max-width: 900px;
+    /* border-right: 1px solid rgb(212, 209, 209); */
+    border-bottom: 4px solid red;
+    margin-right: 30px;
+}
+.entertainment-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.entertainment-subtitle1 {
+    color: rgb(247, 34, 16);
+    font-size: 12px;
+    line-height: 11px;
+    font-weight: 600;
+    font-style: normal;
+    padding: 0px 12px 0px 12px;
+    
+}
+
+.entertainment-subtitle2,
+.entertainment-subtitle3,
+.entertainment-subtitle4 {
+    font-style: normal;
+    padding: 0px 12px 0px 12px;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+}
+
+.entertainment-image {
+    position: relative;
+    display: inline-block;
+}
+
+.entertainment-image-hover-text1,
+.entertainment-image-hover-text2 {
+    position: absolute;
+  top: 60%;
+  left: 3%;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0px 0px 0px 2px;
+  background-color: black;
+ 
+
+}
+
+#entertainment-image1 {
+    width: 450px;
+    height:300px;
+    margin: 0px 0px 24px 0px;
+}
+
+#entertainment-container-main2-sub1-image1,
+#entertainment-container-main2-sub2-image2,
+#entertainment-container-main2-sub3-image3 {
+    width: 120px;
+    height: 90px;
+    padding: 0px 20px 0px 0px;
+}
+
+.entertainment-container1-main{
+    display: flex;
+    flex-direction: row;
+}
+.entertainment-container1-main2 {
+    display: flex;
+    padding: 0px 20px;
+}
+
+.entertainment-container-main2-sub1-text2,
+.entertainment-container-main2-sub2-text2,
+.entertainment-container-main2-sub3-text2 {
+    font-size: 12px;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(91,97, 107);
+}
+
+.entertainment-container-main2-sub3-text1,
+.entertainment-container-main2-sub2-text1,
+.entertainment-container-main2-sub1-text1 {
+    font-family: Merriweather;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: black;
+    max-width: 110px;
+}
+
+.entertainment-aside1 {
+    background-color: #F6F1EA;
+    max-width: 250px;
+    padding: 0px 16px 0px 0px;
+    margin: 0px 0px 0px 30px;
+    border-top: 4px solid red;
+    border-bottom: 4px solid red;
+}
+
+.entertainment-aside1-sec1 {
+    border-bottom: 1px solid rgb(197, 194, 194);
+    margin: 0px 0px 0px 10px;
+}
+
+.entertainment-aside1-title1  {
+    font-family: Roboto serif;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 300;
+    color: rgb(91,97, 107);
+}
+
+.entertainment-aside1-title2 {
+    color: red;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    font-style: italic;
+}
+
+.entertainment-aside1-main1 {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 100px;
+    margin: 2px 0px 25px 0px;
+}
+
+.entertainment-aside1-main2 {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 100px;
+    margin: 2px 0px 30px 0px;
+    margin: 15px 0px 40px 0px;
+}
+.entertainment-button {
+    border-radius: 100%;
+    border: 1px solid rgb(197, 194, 194);
+    width: 70px;
+    height: 65px;
+}
+
+#entertainment-aside1-main1-image1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.entertainment-aside-text-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.entertainment-aside1-text1 {
+    max-width: 150px;
+    font-size: 12px;
+    line-height: 22px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: merriweather,serif;
+    color: rgb(0, 0, 0);
+    margin: 0px 2px 0px 0px;
+    padding: 0px 8px 0px 0px;
+}
+
+.entertainment-aside1-text2 {
+    max-width: 160px;
+    font-size: 12px;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: roboto, sans-serif;
+    color: rgb(91, 97, 107);
+    margin: 0px 2px 0px 0px;
+    padding: 0px 8px 0px 0px;
+}
+
+.entertainment-aside2-title1 {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.entertainment-aside2-sec1-title11 {
+    font-family: roboto serif;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 20px;
+    color: rgb(91, 97, 107);
+    padding: 0px 10px 0px 0px;
+}
+
+.entertainment-aside2-sec1-title12 {
+    display: flex;
+    flex-direction: row;
+    font-family: roboto serif;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 20px;
+    color: red;
+}
+
+
+#entertainment-aside2-sec1-image {
+    width: 265px;
+    height: 170px;
+    margin-top: -30px;
+}
+
+.entertainment-aside2-text {
+    display: flex;
+    flex-direction: row;
+    margin: -5px;
+}
+
+.entertainment-aside2-sec1-text1 {
+    color: red;
+    font-size: 13px;
+    padding: 0px 2px 0px 0px;
+    text-align: center;
+} 
+.entertainment-aside2-sec1-text2 {
+    color: rgb(91, 97, 107);
+    font-size: 13px;
+    font-family: roboto serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 13px;
+    padding: 0px 2px 0px 0px;
+    text-align: center;
+}
+
+.entertainment-aside2-sec1-title2 {
+   font-family: merriweather;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 26px;
+   color:rgb(0, 0, 0);
+   margin-top: -13px;
+}
+
+.entertainment-aside2-sec2 {
+     background-color: #F6F1EA;
+    max-width: 250px;
+    padding: 0px 16px 0px 0px;
+    margin: 0px 0px 0px 30px;
+}
+
+.entertainment-aside2 {
+    background-color: #ffffff;
+    max-width: 250px;
+    padding: 0px 16px 0px 0px;
+    margin: 0px 0px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 4px solid red;
+}
+
+.entertainment-aside2-sec2-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: -25px;
+    margin-bottom: 20px;
+}
+
+.entertainment-aside2-sec2-container1 {
+    display: flex;
+    flex-direction: row;
+    padding: 2.704px
+}
+#entertainment-aside2-sec2-image {
+    width: 100px;
+    height: 70px;
+}
+
+.entertainment-aside2-sec1-container1-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 10px;
+}
+
+.entertainment-aside2-sec1-container1-text-title {
+    display: flex;
+    flex-direction: row;
+    margin: -5px;
+    
+}
+
+.entertainment-aside2-sec1-container1-text-title1 {
+    color: red;
+    font-size: 13px;
+    padding: 0px 2px 0px 0px;
+    text-align: center;
+}
+
+.entertainment-aside2-sec1-container1-text-title2 {
+    color: rgb(91, 97, 107);
+    font-size: 13px;
+    font-family: roboto serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 13px;
+    padding: 0px 2px 0px 0px;
+    text-align: center;
+}
+
+.entertainment-aside2-sec2-container1-text-main {
+    font-family: merriweather,serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    color: black;
+    margin-top: -6px;
+    justify-content: center;
+}
+
+.entertainment-aside3-title {
+    font-family: roboto serif;
+    font-style: normal;
+    color:rgb(91, 97, 107);
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 33px;
+    margin-top: 0px;
+}
+
+.entertainment-aside3-container {
+     display: flex;
+    flex-direction: column;
+    margin-top: -25px;
+    margin-bottom: 60px;
+    
+}
+
+.entertainment-aside3-container-text-title {
+    color: rgb(247, 34, 16);
+    font-family: roboto serif;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 13px;
+}
+
+.entertainment-aside3 {
+    background-color: #ffffff;
+    max-width: 250px;
+    padding: 0px 16px 0px 0px;
+    margin: 0px 0px 0px 30px;
+    display: flex;
+    flex-direction: column;
+}
+.politics-main1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.politics-main21 {
+    background-color: rgb(89, 89, 89);
+    border-top: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 35px;
+}
+
+.politics-main2-sec2 {
+    padding: 15px 0px 20px 0px;
+    max-width: 500px;
+}
+
+.politics-main2-sec2-title {
+    color: rgb(255, 129, 118);
+    font-family: Merriwether, serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.politics-main2-sec2-sub {
+  padding: 40px 0px 0px 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px; /* Optional: adds space between grid items */
+}
+
+.politics-main2-sec2-title2 {
+    color: rgb(255, 129, 118);
+    font-family: Merriwether, serif;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.politics-main2-sec2-title21{
+    font-family: Merriweather, serif;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: normal;
+    color: rgb(255, 255, 255);
+}
+ #politics-image2 {
+    height: 350px;
+    width: 250px;
+    margin: 25px;
+} 
+
+#politics-image1 {
+    width: 300px;
+    height: 150px;
+}
+.politics-main2-sec2-sub {
+    display: grid;
+    grid: 4 2px;
+}
+.politics-main2-sec2-sub-text,
+.politics-main2-sec2-sub-text1{
+    color: #ffffff;
+}
+
+.politics-main2-sec2-sub2 {
+    text-align: right;
+}
+
+.politics-text1-title {
+    font-family: merriweather;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 28px;
+    color: black;
+}
+
+.politics-text1,
+.politics-text2 {
+    margin-top: -18px;
+}
+
+.politics-text1,
+.politics-image,
+.politics-text2 {
+    padding: 0px 20px 0px 0px;
+}
+
+.politics-main2-sec2-head {
+    font-family: merriweather;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+}
+.money-container {
+    max-width: 900px;
+    margin-right: 30px;
+}
+
